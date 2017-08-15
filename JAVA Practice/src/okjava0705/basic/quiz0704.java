@@ -1,4 +1,4 @@
-package okjava0705;
+package okjava0705.basic;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class quiz0704 {
 		double average=0;
 		
 		Scanner sc=new Scanner(System.in);
-		System.out.println("±¹¾î,¿µ¾î,¼öÇÐ,»çÈ¸,°úÇÐ Á¡¼ö¸¦ Â÷·Ê´ë·Î ³Ö¾îÁÖ¼¼¿ä : ");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½È¸,ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ê´ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½ : ");
 		
 		for(int i=0;i<score.length;i++)
 			score[i]=sc.nextInt();
@@ -17,6 +17,6 @@ public class quiz0704 {
 			total+=score[i];
 		average=total/5.0;
 		
-		System.out.println("ÃÑÁ¡Àº "+total+"ÀÌ¸ç, Æò±ÕÀº "+average+"ÀÔ´Ï´Ù.");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ "+total+"ï¿½Ì¸ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ "+average+"ï¿½Ô´Ï´ï¿½.");
 	}
 }

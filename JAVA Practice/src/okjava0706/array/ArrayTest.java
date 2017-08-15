@@ -1,4 +1,4 @@
-package okjava0706;
+package okjava0706.array;
 
 public class ArrayTest {
 	int[][] scores={
@@ -15,7 +15,7 @@ public class ArrayTest {
 			for(int j=0;j<s.length;j++){
 				total=total+s[j];
 			}
-			System.out.printf("ÃÑÁ¡: %d, Æò±Õ: %d",total,total/scores.length);
+			System.out.printf("ï¿½ï¿½ï¿½ï¿½: %d, ï¿½ï¿½ï¿½: %d",total,total/scores.length);
 			System.out.println();
 		}
 	}

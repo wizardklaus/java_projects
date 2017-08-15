@@ -1,4 +1,4 @@
-package okjava0711;
+package okjava0711.io;
 
 import java.io.IOException;
 import java.io.InputStream;

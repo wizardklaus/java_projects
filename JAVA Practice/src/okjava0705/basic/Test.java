@@ -1,4 +1,4 @@
-package okjava0705;
+package okjava0705.basic;
 
 public class Test {
 	public static void main(String[] args){

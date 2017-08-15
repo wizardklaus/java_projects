@@ -1,4 +1,4 @@
-package okjava0712;
+package okjava0712.io;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -10,19 +10,22 @@ import java.util.Scanner;
 public class Ch7Ex4 {
 
 	public static void main(String[] args) {
-		System.out.println("°£´ÜÇÑ ¸Ş¸ğÀå");
-		System.out.println("ÀúÀåÇÒ ÆÄÀÏ¸í : ");
 		Scanner scanner=new Scanner(System.in);
+		System.out.println("txtíŒŒì¼ ìƒì„± í”„ë¡œê·¸ë¨");
+		System.out.println("ë§Œë“¤íŒŒì¼ ì´ë¦„ :");
 		String filename=scanner.next();
-		System.out.println("ÀúÀåÀº ¸¶Áö¸· ¶óÀÎ¿¡ q ÀÔ·Â");
 		
 		try{
 			BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
-			BufferedWriter writer=new BufferedWriter(new FileWriter("c:/Temp/"+filename+".txt"));
+			BufferedWriter writer=new BufferedWriter(new FileWriter("d:/"+filename+".txt"));
 			
 			String s;
-			while((s=reader.readLine()).equals("q")){
+			System.out.println("ë‚´ìš©ì…ë ¥ : ");
+			while(!((s=reader.readLine()).equals("q"))){
+				System.out.println("ë‚´ìš© :"+s);
 				writer.write(s);
+				writer.newLine();
+				System.out.println("ë‚´ìš©ì…ë ¥ : ");
 			}
 			reader.close();
 			writer.close();

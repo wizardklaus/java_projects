@@ -1,4 +1,4 @@
-package okjava0712;
+package okjava0712.io;
 
 import java.io.File;
 import java.io.FileWriter;

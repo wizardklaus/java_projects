@@ -1,4 +1,4 @@
-package okjava0705;
+package okjava0705.basic;
 
 import java.util.Scanner;
 
@@ -22,7 +22,7 @@ public class Gugudan {
 	public static void main(String[] args){
 		int dan;
 		Scanner sc=new Scanner(System.in);
-		System.out.println("´Ü ¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ");
+		System.out.println("ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½ : ");
 		dan=sc.nextInt();
 		Gugudan app=new Gugudan(dan);
 	}

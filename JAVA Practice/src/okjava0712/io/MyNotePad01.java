@@ -1,4 +1,4 @@
-package okjava0712;
+package okjava0712.io;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class MyNotePad01 {
 	public MyNotePad01(){
 		Scanner sc=new Scanner(System.in);
-		System.out.println("ÆÄÀÏ¸íÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä. : ");
+		System.out.println("ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½. : ");
 		String fname=sc.next();
 		
 		try{
@@ -18,11 +18,11 @@ public class MyNotePad01 {
 			BufferedWriter bw=new BufferedWriter(new FileWriter("d:/"+fname+".txt"));
 			
 			String data=null;
-			System.out.println("³»¿ëÀ» ÀÔ·Â(q¸¦ ÀÔ·ÂÇÏ¸é Á¾·á) : ");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½(qï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¸ï¿½ ï¿½ï¿½ï¿½ï¿½) : ");
 			while(!(data=br.readLine()).equals("q")){
 				bw.write(data);
 				bw.newLine();
-				System.out.println("³»¿ëÀ» ÀÔ·Â(q¸¦ ÀÔ·ÂÇÏ¸é Á¾·á) : ");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½(qï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¸ï¿½ ï¿½ï¿½ï¿½ï¿½) : ");
 			}
 		}catch(IOException ioe){
 			ioe.printStackTrace();
